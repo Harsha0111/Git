@@ -1,0 +1,21 @@
+To create new branch:
+$ git branch <branch_name>
+
+To switch an existing branch:
+$ git checkout <branch_name>
+
+To create new branch & switch to it in single command:
+ $ git checkout -b <branch_name>
+
+To delete a branch:
+  $ git branch -d <branch_name>
+
+To list all branches:
+$ git branch
+
+note: default branch is master and while listing branches infornt one branch name " * " 
+will be it indiccates the current branch in which we are.
+
+Head is pointing the last commit in our current branch, 
+if we switch the branch via git checkout <branch_name> ,
+then head moves accordingly to the branch's last commit.

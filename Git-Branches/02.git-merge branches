@@ -1,0 +1,29 @@
+git merge- is used to merge the branches from one branch to another
+
+*****
+****************************************************
+ Types of merge branch:
+        1.fast forward
+        2.not fast-forward
+
+********************************
+scenario:
+**********
+From master node having a feature branch in that feature branch made some additional features named:f1 branch, then we need to merge this f1 branch to master branch, how do we do it?
+***********
+ solution:
+ ********
+ switch to destination branch(master) first:
+ note: after creating feature branch there is no new branch in master, so it's known as 
+ "Fast Forward merge" (hint:like linear/straight manner)
+
+ $ git checkout master
+
+ then, enter the below command:
+ $ git merge <branch_name>
+
+ here, the branch name is f1
+ $ git merge f1
+
+ **********************************************
+ 

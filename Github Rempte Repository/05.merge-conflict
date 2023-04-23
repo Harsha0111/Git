@@ -1,0 +1,38 @@
+Scenario:
+From master there are 2 feature branches namely sara & ram
+then, the 2 branch person are working in same file name hi.txt.
+
+Since sara merged here upadted file "hi.txt" to master branch,
+then ram tries to merge his upadted file "hi.txt" to master branch.
+
+He faces, merge conflict now, becoz they updated same file name "hi.txt",
+so now git will add "SOME EXTRA LINES TO THAT hi.txt FILE"
+
+eg: 
+ vi hi.txt
+due to conflict:
+
+ inside that file
+
+ <<<<<<<<< HEAD
+
+ This is Sara --updated by sara
+
+ =============
+
+ This is Ram
+ >>>>>>>>>> ram -- updated by ram
+
+
+remove the extra contents: as below
+
+ This is Sara --updated by sara
+ This is Ram
+
+save and quit: 
+        press esc btn 
+        [then enter]  :wq
+
+now, 
+$ git add "hi.txt"
+$ git merge 

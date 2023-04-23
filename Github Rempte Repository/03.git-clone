@@ -1,0 +1,12 @@
+git-clone:
+***************
+        Used to "copy" of a remote repository "locally" by same repository name locally also.
+
+Syntax:
+    $ git clone <repository_link>
+
+How to take repository_link:
+    1.login to github
+    2.choose any project(repository) there use ccan see Clone button in green color
+    3.click that button you can see the HTTPS and SSH 
+    4.copy either HTTPS/SSH link

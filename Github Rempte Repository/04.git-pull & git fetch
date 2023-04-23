@@ -1,0 +1,14 @@
+Fetch vs Pull:
+*************
+ Git fetch is a safer alternative because it pulls in all the commits,
+  from your remote to local repository, but doesn't make any changes to your working directory files.
+  and if you give below command the latest code by git pull will reflect in your working dir.
+ $ git merge 
+
+In git pull it's single command:
+  On the other hand, Git pull is directly downloading the latest code to working directory.
+
+*******************************
+  git pull = directly apply latest code changes to working directory
+  git fetch = git fetch + git checkout(optional if need to specify branch to apply the changes)
+            + git merge

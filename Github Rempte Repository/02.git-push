@@ -1,0 +1,13 @@
+git push:
+*************
+Pushing: Send your updated code to remote repository
+******************************************
+The git push command is used to upload local repository content to a remote repository. 
+Pushing is how you transfer commits from your local repository to a remote repo.
+
+*************
+Syntax:
+ $ git push origin master
+
+ origin- remote name
+ master- updated file's branch name 

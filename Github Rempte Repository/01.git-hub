@@ -1,0 +1,27 @@
+Local vs Remotevrepository:
+****************************
+Local repositories reside on the computers of team members. In contrast, remote repositories are hosted on a server that is accessible for all team members - most likely on the internet or on a local network.
+
+Famous remote repositories:
+    1.Github
+    2.GitLab
+    3.Bitbucket
+
+
+How to add your project to Remote repo.?
+
+Pre-requirements:
+       * Create account in anyone of the remote repo.
+       * Add your username in your working directory before commiting the changes by
+       via following commands:
+       
+       # sets up Git with your name
+        $ git config --global user.name "<Your-Full-Name>"
+
+       # sets up Git with your email
+        $ git config --global user.email "<your-email-address>"
+
+
+Connection string[url of your github project] --> https://github/your_name/[name of project].git 
+
+solution:   $ git remote add origin <Connection string>

@@ -1,0 +1,4 @@
+$ git log
+Used to check the log in git
+It will show the commit id for each commit and the username who made the commit with 
+mentioned message while committing.
